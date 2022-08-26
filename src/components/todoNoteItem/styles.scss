@@ -1,0 +1,31 @@
+.item{
+    width: 97%;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 10px;
+    h3{
+        margin: 0;
+    }
+    p{
+        margin: 0;
+    }
+    &:hover{
+        cursor: pointer;
+        background-color: palevioletred;
+        button{
+            background-color: palevioletred;
+        }
+    }
+    button{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #fff;
+        border: 0;
+        font-size: 15px;
+        cursor: pointer;
+    }
+}
